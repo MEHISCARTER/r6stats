@@ -1,6 +1,6 @@
-Team name:
+Team name: Team TC
 
-Team members:
+Team members: Carter Pylman, Tyler Carpenter
 
 # Introduction
 
