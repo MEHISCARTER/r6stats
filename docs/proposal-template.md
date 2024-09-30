@@ -11,7 +11,7 @@ The concept of our project is based on a vide game called rainbow six siege and 
 # Anticipated Technologies
 
 (What technologies are needed to build this project)
-Some technologies that are going to be needed involve a coding langauge for us that will be python mainly. We also might use some c within our project.
+Some technologies that are going to be needed involve a coding langauge for us that will be python mainly. We also might use some c and SQL database within our project.
 
 # Method/Approach
 
