@@ -16,6 +16,7 @@ Some technologies that are going to be needed involve a coding langauge for us t
 # Method/Approach
 
 (What is your estimated "plan of attack" for developing this project)
+One plan we have is to be very felxible so we can attack all angles of this project when needed.
 
 # Estimated Timeline
 
@@ -24,5 +25,6 @@ Some technologies that are going to be needed involve a coding langauge for us t
 # Anticipated Problems
 
 (Describe any problems you foresee that you will need to overcome)
+One main problem we are looking at is making it possible for our code to go out and grab infromation and bring that back to show our users.
 
 Remember this is a living document is expected to be changed as you make progress on your project.
