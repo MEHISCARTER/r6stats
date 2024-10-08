@@ -6,7 +6,7 @@ The concept of our project is based on a vide game called rainbow six siege and 
 
 * [Tyler Carpenter](https://github.com/Tcarp2404/CIS350-HW2-Carpenter/tree/main) (Team lead, Back-up programmer)
 * [Carter Pylman](https://github.com/MEHISCARTER/CIS350-HW2-Pylman) (Main Programmer, Project Manager)
-* Member 3 (Role 5, Role 6)
+
 
 ## Prerequisites
 
