@@ -4,10 +4,10 @@
 # Functional 
 
 1. Feature
-    -functional requirement
+   * functional requirement
 
 
 # Non-Functional
 
 1. Feature
-   - non-functional requirement 
+   * non-functional requirement 
