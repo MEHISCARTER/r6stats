@@ -32,5 +32,3 @@ One plan we have is to be very felxible so we can attack all angles of this proj
 # Anticipated Problems
 
 One main problem we are looking at is making it possible for our code to go out and grab infromation and bring that back to show our users.
-
-Remember this is a living document is expected to be changed as you make progress on your project.
