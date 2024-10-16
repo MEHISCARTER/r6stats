@@ -20,7 +20,7 @@ Some technologies that are going to be needed involve a coding langauge for us t
 
 # Method/Approach
 
-One plan we have is to be very felxible so we can attack all angles of this project when needed. We are planning on using the agile method we hope for our approach to be based on being very user friendly. 
+One plan we have is to be very felxible so we can attack all angles of this project when needed. We are planning on using the agile method we hope for our approach to be based on being very user friendly. Add rationale for why we are using agile method.
 
 # Estimated Timeline
 
