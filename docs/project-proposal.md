@@ -28,6 +28,9 @@ One plan we have is to be very felxible so we can attack all angles of this proj
 - Finish UML diagram before October 9th
 - Start coding week of October 14th
 - Set up sprints for weeks to come during the week of October 14th
+- classes connected
+- website uploaded
+- ui for website made
 
 # Anticipated Problems
 
