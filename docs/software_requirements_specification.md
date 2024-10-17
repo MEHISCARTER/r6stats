@@ -1,4 +1,5 @@
-30 requirements, 15 functional and 15 non-functional
+# Overview
+This document has a purpose of establishing and defining what our project R6stats is aiming to be. We are going to build our framework through functional and non-functioanl requirements. Our functional requirments should do a good job of explaining our projects basic functions. While the non-functional requirments should do a good job telling why those functions should be doing what they are doing. Overall this document is a key piece in explaining our project as it's developed.
 
 
 # Functional 
