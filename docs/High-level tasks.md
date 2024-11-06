@@ -5,7 +5,7 @@ For each tasks do the following
 * Responsible (person in charge of task):
 
 1. Tasks that have been completed - 
-2. Tasks not yet completed - classes connected - C, website made, base for sql - C, data from website - C, Project application download,
+2. Tasks not yet completed - classes connected, website made, base for sql, data from website, Project application download,
 
 * Name: Creation of base website
 * Description (1 sentence max): Create a base for the website that will hold the dowload for our application.
