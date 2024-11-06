@@ -17,17 +17,17 @@ For each tasks do the following
 * Expected time to complete: November 30th
 * Responsible (person in charge of task): Tyler
 
-* Name: 
-* Description (1 sentence max):
-* Expected time to complete:
-* Responsible (person in charge of task):
+* Name: Working SQL database setup
+* Description (1 sentence max): Get an early working version of the SQL database
+* Expected time to complete: November 15, about a week
+* Responsible (person in charge of task): Carter
 
-* Name: 
-* Description (1 sentence max):
-* Expected time to complete:
-* Responsible (person in charge of task):
+* Name: Visualization program
+* Description (1 sentence max): Visualizing the data from the database
+* Expected time to complete: November 30
+* Responsible (person in charge of task): Carter
 
-* Name: 
-* Description (1 sentence max):
-* Expected time to complete:
-* Responsible (person in charge of task):
+* Name: User Interface Setup
+* Description (1 sentence max): Working user interface
+* Expected time to complete: November 30
+* Responsible (person in charge of task): Carter
