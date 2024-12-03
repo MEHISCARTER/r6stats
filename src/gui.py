@@ -31,6 +31,10 @@ class R6StatsApp:
     def add_match(self):
         tk.Label(self.current_frame, text="Add Match", font=("Arial", 16)).pack(pady=10)
 
+        tk.Label(self.current_frame, text="Map Name:").pack(pady=5)
+        map_name_var = tk.StringVar()
+        tk.Entry(self.current_frame, textvariable=map_name_var).pack(pady=5)
+
         round_inputs = []
 
         def add_round():
@@ -71,16 +75,24 @@ class R6StatsApp:
             round_inputs.append(round_data)
 
         def save_match():
+            map_name = map_name_var.get()
+            if not map_name:
+                messagebox.showerror("Error", "Please enter the map name.")
+                return
+
             match_data = []
             for round_data in round_inputs:
                 match_data.append({key: var.get() for key, var in round_data.items()})
-            match_id = database.save_match(match_data)
-            messagebox.showinfo("Match Saved", f"Match ID {match_id} has been saved!")
+
+            try:
+                match_id = database.save_match_with_map(map_name, match_data)
+                messagebox.showinfo("Match Saved", f"Match ID {match_id} has been saved with map {map_name}!")
+            except Exception as e:
+                messagebox.showerror("Error", str(e))
 
         tk.Button(self.current_frame, text="Add Round", command=add_round, width=20).pack(pady=5)
         tk.Button(self.current_frame, text="Save Match", command=save_match, width=20).pack(pady=5)
         tk.Button(self.current_frame, text="Back to Menu", command=self.switch_to_main_menu, width=20).pack(pady=5)
-
     def switch_to_check_stats(self):
         self.switch_frame(self.check_stats)
 
@@ -99,9 +111,17 @@ class R6StatsApp:
 
             try:
                 match_stats = database.get_match_stats(match_id)
-                stats_text = f"Stats for Match ID {match_id}:\n\n"
+                if not match_stats:
+                    messagebox.showerror("Error", "No match found with that ID.")
+                    return
+
+                stats_text = f"Stats for Match ID {match_id}:\n"
+                # Get the map name from the first row (all rows should have the same map name)
+                map_name = match_stats[0][1]
+                stats_text += f"Map: {map_name}\n\n"
+
                 for stat in match_stats:
-                    stats_text += f"Round {stat[0]}: Side: {stat[1]}, Site: {stat[2]}, Kills: {stat[3]}, Deaths: {stat[4]}, Assists: {stat[5]}, Operator: {stat[6]}, Result: {stat[7]}\n"
+                    stats_text += f"Round {stat[2]}: Side: {stat[3]}, Site: {stat[4]}, Kills: {stat[5]}, Deaths: {stat[6]}, Assists: {stat[7]}, Operator: {stat[8]}, Result: {stat[9]}\n"
 
                 messagebox.showinfo("Match Stats", stats_text)
             except Exception as e:
@@ -109,7 +129,6 @@ class R6StatsApp:
 
         tk.Button(self.current_frame, text="Show Stats", command=show_stats, width=20).pack(pady=5)
         tk.Button(self.current_frame, text="Back to Menu", command=self.switch_to_main_menu, width=20).pack(pady=5)
-
 
 root = tk.Tk()
 app = R6StatsApp(root)
