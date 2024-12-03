@@ -18,7 +18,7 @@ def add_match(map_name, result, rounds):
                 "deaths": 4,
                 "assists": 2,
                 "operator": "ash",
-                "result_type": "2:00, yes, yes"
+                "result_type": "win or loss"
             }
 
     Returns:
