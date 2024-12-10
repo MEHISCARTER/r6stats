@@ -11,3 +11,4 @@ The concept of our project is based on a vide game called rainbow six siege and 
 ## Prerequisites
 
 ## Run Instructions
+Are project is currently run out of pycharm and we haven't figured out yet how to get it as a downloadable.
