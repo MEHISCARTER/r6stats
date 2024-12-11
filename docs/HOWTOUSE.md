@@ -7,7 +7,7 @@
 1. Download gui.py, database.py and place them in the folder you made
 2. Download all the images in r6_map_images and place them in a folder named map_pictures inside of the R6stats folder
 
-#Step 3
+# Step 3
 ## How to Run
 1. To run, open gui.py in VSC or whatever you want, and run it from there
 2. On the main menu screen there is a button that says Select Map directory
