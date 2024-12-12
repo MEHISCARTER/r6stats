@@ -1,4 +1,4 @@
-#How to Use R6Stats app
+# How to Use R6Stats app
 # Step 1
 ## Create folder
 1. Create R6Stats folder in whatever directory or folder you want
